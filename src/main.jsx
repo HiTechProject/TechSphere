@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import HomePage from './pages/HomePage.jsx'
+import Cursor from './components/Cursor.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Cursor></Cursor>
+    {/* <App></App> */}
+    <HomePage />
+    {/* Hello */}
   </StrictMode>,
 )
